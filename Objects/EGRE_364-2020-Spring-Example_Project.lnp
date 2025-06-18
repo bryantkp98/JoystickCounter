@@ -1,0 +1,9 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\startup_stm32l476xx.o"
+".\objects\l3main.o"
+".\objects\systimer.o"
+".\objects\l3mane .o"
+--strict --scatter ".\Objects\EGRE_364-2020-Spring-Example_Project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\EGRE_364-2020-Spring-Example_Project.map" -o .\Objects\EGRE_364-2020-Spring-Example_Project.axf
